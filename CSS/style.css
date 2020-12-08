@@ -14,8 +14,12 @@
     text-align: center;
 }
 
-.single {
+.right-side {
     float: right;
+}
+
+.right-side i {
+    padding-left: 10px;
 }
 
 
