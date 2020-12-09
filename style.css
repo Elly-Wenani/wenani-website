@@ -4,12 +4,8 @@
     margin: 0%;
 }
 
-body {
-    background: url(images/back.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
+
+/* Black background color to the top navigation */
 
 .topnav {
     background-color: #143D59;
@@ -26,6 +22,9 @@ body {
     padding-left: 10px;
 }
 
+
+/* Styling the links inside the navigation bar */
+
 .topnav a {
     display: inline-flex;
     color: #fff;
@@ -34,14 +33,24 @@ body {
     font-size: 17px;
 }
 
+
+/* Change the color of links on hover */
+
 .topnav a:hover {
     background-color: #ddd;
     color: #143D59;
+    text-decoration: none;
 }
+
+
+/* Active class to highlight the current page */
 
 .topnav a.active {
     color: #f4a950;
 }
+
+
+/* Hide the link that should open and close the topnav on small screens */
 
 .topnav .icon {
     display: none;
@@ -94,16 +103,69 @@ body {
     color: #143D59;
     padding: 10px 12px;
     margin: 10px;
+    font-weight: 600;
     text-decoration: none;
     font-size: 18px;
 }
 
+.toptop-left:hover a {
+    text-decoration: none;
+}
+
 .toptop-right .btnright {
     margin: 10px;
-    color: #f4a950;
-    background-color: #143D59;
+    color: #143D59;
+    background-color: #ddd;
+    border-color: #143D59;
     padding: 5px 30px;
     border-radius: 5px;
     font-size: 18px;
+    font-weight: 600;
+}
+
+.mainpage {
+    background-image: url(images/back.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+
+/*Login modal*/
+
+.modal-header,
+h4,
+.close {
+    background-color: #fff;
+    color: #143D59;
+    text-align: center;
+    font-size: 30px;
+}
+
+.modal-footer {
+    background-color: #fff;
+}
+
+.btnloglog {
+    width: 100%;
+    padding: 4px 6px;
+    background: #143D59;
+    color: #f4a950;
+    border-color: #00000000;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.btnloglog:hover {
+    width: 100%;
+    background: #f4a950;
+    color: #143D59;
+    border-color: #00000000;
+    border-radius: 5px;
+    font-size: 20px;
     font-weight: 600;
 }

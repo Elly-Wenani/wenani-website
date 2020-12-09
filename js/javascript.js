@@ -6,3 +6,9 @@ function myFunction() {
         x.className = "topnav";
     }
 }
+
+$(document).ready(function() {
+    $("#myBtn").click(function() {
+        $("#myModal").modal();
+    });
+});
