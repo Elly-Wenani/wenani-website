@@ -15,6 +15,8 @@
 <body>
 
     <section>
+    
+        <!-- Top most header section -->
         <div class="toptop">
             <div class="toptop-left">
                 <a href="">Elly Wenani</a>
@@ -25,6 +27,7 @@
             </div>
         </div>
 
+        <!-- Bellow topmost header section -->
         <div class="topnav" id="myTopnav">
             <a href="" class="active">Home</a>
             <a href="">Store</a>
@@ -33,10 +36,7 @@
             <a href="">Affiliate</a>
             <a href="">Careers</a>
             <a href="">Contact Us</a>
-
-            <div class="right-side" id="myTopnav">
-                <a href="">Account<i class="fa fa-caret-down"></i></a>
-            </div>
+            <a href="" class="right-side">Account<i class="fa fa-caret-down"></i></a>
 
             <a href="javascript:void(0);" class="icon" onclick="myFunction()">
                 <i class="fa fa-bars"></i>
@@ -45,11 +45,13 @@
     </section>
 
     <section class="mainpage">
-        <div>
-            <H1>Testing</H1>
+        <div class="foundation">
+        <h1>Elly Wenani</h1>
+        <H2>Foundation</H2>
         </div>
     </section>
 
+<!-- Code for modal -->
     <section>
         <!-- Modal -->
         <div class="modal fade" id="myModal" role="dialog">

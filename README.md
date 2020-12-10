@@ -1,1 +1,1 @@
-# webprac
+# Sample website for a company
