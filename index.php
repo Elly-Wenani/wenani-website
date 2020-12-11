@@ -35,7 +35,7 @@
             <a href="">Hosting</a>
             <a href="">Affiliate</a>
             <a href="">Careers</a>
-            <a href="">Contact Us</a>
+            <a href="contact.php">Contact Us</a>
             <a href="" class="right-side">Account<i class="fa fa-caret-down"></i></a>
 
             <a href="javascript:void(0);" class="icon" onclick="myFunction()">
@@ -46,8 +46,15 @@
 
     <section class="mainpage">
         <div class="foundation">
-        <h1>Elly Wenani</h1>
-        <H2>Foundation</H2>
+            <h1>Elly Wenani</h1>
+            <p>Text here, text here. Most developers like using Lorem Ipsum. Text here, text here.<br>
+            Most developers like using Lorem Ipsum. Text here, text here.<br>
+            developers like using Lorem Ipsum.</p>
+
+            <div class="sbtnhome">
+                <button class="btnreadmore">Read More</button>
+                <button class="btngetstarted">Get Started</button>
+            </div>
         </div>
     </section>
 
@@ -61,7 +68,7 @@
                 <div class="modal-content">
                     <div class="modal-header" style="padding:35px 50px;">
                         <button type="button" class="close" data-dismiss="modal">&times;</button>
-                        <h4><span class="glyphicon glyphicon-lock"></span>Login</h4>
+                        <h4 class="hlogin">Login</h4>
                     </div>
                     <div class="modal-body" style="padding:40px 50px;">
                         <form role="form">

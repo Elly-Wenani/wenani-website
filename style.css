@@ -1,7 +1,7 @@
 * {
-    box-sizing: border-box;
     padding: 0%;
     margin: 0%;
+    box-sizing: border-box;
 }
 
 
@@ -66,7 +66,7 @@
     }
 }
 
-@media screen and (max-width: 80z0px) {
+@media screen and (max-width: 800px) {
     .topnav.responsive {
         position: relative;
     }
@@ -79,6 +79,9 @@
         float: none;
         display: block;
         text-align: left;
+    }
+    .topnav a:active {
+        color: #f4a950;
     }
 }
 
@@ -181,10 +184,52 @@ h4,
     color: #143D59;
     font-size: 400%;
     font-weight: 600;
+    margin-left: 8px;
+    margin-top: 50px;
 }
 
-.foundation h2 {
-    font-size: 100px;
-    font-weight: 800;
+.foundation p {
+    font-size: 18px;
+    font-weight: normal;
+    color: #143D59;
+    margin-left: 8px;
+    margin-top: 16px;
+}
+
+.hlogin {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.sbtnhome {
+    border-color: #f4a950;
+}
+
+.btnreadmore {
+    border-radius: 4px;
+    border-color: #00000000;
+    background-color: #143D59;
+    padding: 8px 16px;
+    color: #fff;
+    margin-left: 8px;
+    margin-right: 20px;
+    margin-top: 80px;
+    font-size: 16px;
+}
+
+.btnreadmore:hover {
+    color: #f4a950;
+}
+
+.btngetstarted {
+    border-radius: 4px;
+    border-color: #00000000;
+    background-color: #f4a950;
+    padding: 8px 16px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.btngetstarted:hover {
     color: #143D59;
 }
