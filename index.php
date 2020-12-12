@@ -15,11 +15,11 @@
 <body>
 
     <section>
-    
+
         <!-- Top most header section -->
         <div class="toptop">
             <div class="toptop-left">
-                <a href="">Elly Wenani</a>
+                <a>Elly Wenani</a>
             </div>
 
             <div class="toptop-right">
@@ -48,8 +48,8 @@
         <div class="foundation">
             <h1>Elly Wenani</h1>
             <p>Text here, text here. Most developers like using Lorem Ipsum. Text here, text here.<br>
-            Most developers like using Lorem Ipsum. Text here, text here.<br>
-            developers like using Lorem Ipsum.</p>
+                Most developers like using Lorem Ipsum. Text here, text here.<br>
+                developers like using Lorem Ipsum.</p>
 
             <div class="sbtnhome">
                 <button class="btnreadmore">Read More</button>
@@ -58,7 +58,7 @@
         </div>
     </section>
 
-<!-- Code for modal -->
+    <!-- Code for modal -->
     <section>
         <!-- Modal -->
         <div class="modal fade" id="myModal" role="dialog">
@@ -74,11 +74,13 @@
                         <form role="form">
                             <div class="form-group">
                                 <label for="usrname"><span class="glyphicon glyphicon-user"></span> Email</label>
-                                <input type="email" class="form-control" id="usrname" placeholder="Enter email" required>
+                                <input type="email" class="form-control" id="usrname" placeholder="Enter email"
+                                    required>
                             </div>
                             <div class="form-group">
                                 <label for="psw"><span class="glyphicon glyphicon-eye-open"></span> Password</label>
-                                <input type="password" class="form-control" id="psw" placeholder="Enter password" required>
+                                <input type="password" class="form-control" id="psw" placeholder="Enter password"
+                                    required>
                             </div>
                             <div class="checkbox">
                                 <label><input type="checkbox" value="" checked>Remember me</label>
@@ -87,7 +89,8 @@
                         </form>
                     </div>
                     <div class="modal-footer">
-                        <button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> Cancel</button>
+                        <button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal"><span
+                                class="glyphicon glyphicon-remove"></span> Cancel</button>
                         <p>Not a member? <a href="#">Sign Up</a></p>
                         <p>Forgot <a href="#">Password?</a></p>
                     </div>
