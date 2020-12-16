@@ -100,6 +100,52 @@
         </div>
     </section>
 
+    <footer>
+
+        <div class="footer-content">
+            <div class="left box">
+                <img src="images/kenya.png" alt="Logo">
+
+                <div class="socials">
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                    <a href="#"><i class="fa fa-instagram"></i></a>
+                </div>
+            </div>
+
+            <div class="center box">
+
+                <h2>Services</h2>
+
+                <ul class="content">
+                    <a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Web Design</a>
+                    <a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Software Development</a>
+                    <a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Networking</a>
+                    <a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Application Development</a>
+                    <a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Web Hosting</a>
+                </ul>
+
+            </div>
+
+            <div class="right box">
+
+                <h2>Address</h2>
+
+                <ul class="content">
+                    <a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i> P.O Box 2364</a>
+                    <a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Nairobi, Kitange Street</a>
+                    <a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Kimbo House</a>
+                    <a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i> New Demin</a>
+                    <a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Kenya</a>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>All rights reserved &copy; 2020</p>
+        </div>
+    </footer>
+
 </body>
 <script src="js/javascript.js"></script>
 
