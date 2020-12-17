@@ -100,23 +100,22 @@
         </div>
     </section>
 
+    <!-- Footer section -->
     <footer>
 
         <div class="footer-content">
-            <div class="left box">
-                <img src="images/kenya.png" alt="Logo">
 
-                <div class="socials">
-                    <a href="#"><i class="fa fa-facebook"></i></a>
-                    <a href="#"><i class="fa fa-twitter"></i></a>
-                    <a href="#"><i class="fa fa-instagram"></i></a>
-                </div>
+            <div class="left box">
+                <h2>About Us</h2>
+                
+                <ul class="content">
+                    <p>Lorem ipsum dolor sit, <br>amet consectetur adipisicing elit.<br> Maxime adipisci unde<br>ipsum fugit aliquid voluptatum, <br>quos, pariatur molestias ullam, <br>dolores doloribus repellendus <br>blanditiis et atque.</p>
+                
+                </ul>
             </div>
 
-            <div class="center box">
-
-                <h2>Services</h2>
-
+            <div class="left-center box">
+                <h2>Quick Links</h2>
                 <ul class="content">
                     <a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Web Design</a>
                     <a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Software Development</a>
@@ -124,7 +123,17 @@
                     <a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Application Development</a>
                     <a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Web Hosting</a>
                 </ul>
+            </div>
 
+            <div class="right-center box">
+                <h2>Contact Us</h2>
+                <ul class="content">
+                    <a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Web Design</a>
+                    <a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Software Development</a>
+                    <a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Networking</a>
+                    <a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Application Development</a>
+                    <a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Web Hosting</a>
+                </ul>
             </div>
 
             <div class="right box">
@@ -144,6 +153,7 @@
         <div class="footer-bottom">
             <p>All rights reserved &copy; 2020</p>
         </div>
+        
     </footer>
 
 </body>
