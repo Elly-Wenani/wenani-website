@@ -135,6 +135,29 @@
         </div>
     </section>
 
+    <section>
+        <div class="client-section">
+            <div class="sec">
+                <div class="client-text">
+                    <h2>Our <b>Clients</b></h2>
+                    <p>Lorem ipsum dolor sit amet <br>adipisicing elit. Quo qui illo tempora.</p>
+                    <a href=""><u>View All</u></a>
+                </div>
+
+                <div class="cleint-images">
+                    <img src="images/clients/nacico.png" alt="">
+                    <img src="images/clients/cisco.jpg" alt="">
+                    <img src="images/clients/logo7.png" alt="">
+                    <img src="images/clients/logo3.png" alt="">
+                    <img src="images/clients/logo4.png" alt="">
+                    <img src="images/clients/logo5.png" alt="">
+                    <img src="images/clients/logo6.png" alt="">
+                    <img src="images/clients/logo2.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Footer section -->
     <footer>
 
