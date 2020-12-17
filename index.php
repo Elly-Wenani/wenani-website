@@ -100,6 +100,41 @@
         </div>
     </section>
 
+    <!-- Services section -->
+    <section>
+        <div class="main-services">
+            <div class="services">
+                <div>
+                    <h2>Web Design</h2>
+                </div>
+
+                <div>
+                    <h1>|</h1>
+                </div>
+
+                <div>
+                    <h2>Software Development</h2>
+                </div>
+
+                <div>
+                    <h1>|</h1>
+                </div>
+
+                <div>
+                    <h2>Application Development</h2>
+                </div>
+
+                <div>
+                    <h1>|</h1>
+                </div>
+
+                <div>
+                    <h2>Networking</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Footer section -->
     <footer>
 
@@ -107,10 +142,13 @@
 
             <div class="left box">
                 <h2>About Us</h2>
-                
+
                 <ul class="content">
-                    <p>Lorem ipsum dolor sit, <br>amet consectetur adipisicing elit.<br> Maxime adipisci unde<br>ipsum fugit aliquid voluptatum, <br>quos, pariatur molestias ullam, <br>dolores doloribus repellendus <br>blanditiis et atque.</p>
-                
+                    <p>Lorem ipsum dolor sit, <br>amet consectetur adipisicing elit.<br> Maxime adipisci unde<br>ipsum
+                        fugit aliquid voluptatum, <br>quos, pariatur molestias ullam, <br>dolores doloribus repellendus
+                        <br>blanditiis et atque.
+                    </p>
+
                 </ul>
             </div>
 
@@ -153,7 +191,7 @@
         <div class="footer-bottom">
             <p>All rights reserved &copy; 2020</p>
         </div>
-        
+
     </footer>
 
 </body>

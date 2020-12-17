@@ -239,6 +239,60 @@ h4,
 }
 
 
+/* Services section */
+
+.main-services {
+    background-color: #ddd;
+    padding-top: 0.1;
+    padding-bottom: 10;
+}
+
+.main-services .services {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #143D59;
+    color: #ddd;
+    margin-left: 15%;
+}
+
+@media screen and (max-width: 920px) {
+    .main-services .services {
+        background-color: #143D59;
+        margin: auto;
+        padding-top: 0.1;
+        padding-bottom: 10;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .main-services .services {
+        display: block;
+        background-color: #143D59;
+        margin: auto;
+        padding-top: 0.1;
+        padding-bottom: 10;
+    }
+    .main-services .services h2 {
+        font-size: 16px;
+        text-align: center;
+    }
+    .main-services .services h1 {
+        display: none;
+    }
+}
+
+.main-services .services h2 {
+    font-size: 22px;
+}
+
+.main-services .services h1 {
+    font-weight: 400;
+    line-height: 60px;
+}
+
+
 /* Footer section */
 
 footer {
