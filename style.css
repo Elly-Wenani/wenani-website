@@ -243,7 +243,7 @@ h4,
 
 footer {
     background: #143D59;
-    width: auto;
+    width: 100%;
 }
 
 .footer-content {
@@ -253,7 +253,13 @@ footer {
     margin-left: 8px;
     padding: 40px 0 20px 0;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-evenly;
+}
+
+@media screen and (max-width: 520px) {
+    .footer-content {
+        justify-content: left;
+    }
 }
 
 .footer-content .box {
