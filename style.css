@@ -434,7 +434,7 @@ h4,
     color: #ddd;
 }
 
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 800px) {
     .main-blocks .blocks {
         margin-left: 3%;
         margin-right: 3%;
@@ -453,6 +453,7 @@ h4,
         width: 100%;
     }
     .main-blocks .blocks .this-block p {
+        font-size: 17px;
         margin-left: 4%;
         margin-right: 4%;
     }

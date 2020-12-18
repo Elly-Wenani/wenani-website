@@ -173,7 +173,7 @@
                         <p>Aperiam quis libero voluptatum nobis numquam dolorem est.</p>
                     </div>
 
-                    <p>Quisquam, quod officia. quod officia.</p>
+                    <p>Quisquam, quod officia.</p>
                     <p>Quisquam, quod officia.</p>
                     <p>Quisquam, quod officia.</p>
                     <p>Quisquam, quod officia. officia</p>
