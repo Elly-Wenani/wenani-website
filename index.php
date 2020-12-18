@@ -141,7 +141,7 @@
                 <div class="client-text">
                     <h2>Our <b>Clients</b></h2>
                     <p>Lorem ipsum dolor sit amet <br>adipisicing elit. Quo qui illo tempora.</p>
-                    <a href=""><u>View All</u></a>
+                    <a href=""><u>VIEW ALL</u></a>
                 </div>
 
                 <div class="cleint-images">
@@ -158,6 +158,78 @@
         </div>
     </section>
 
+    <section>
+        <div class="info">
+            <H2>Maxime quaerat architecto vero, repudiandae in tempore eum libero qui fugiat accusantium harum.</H2>
+        </div>
+    </section>
+
+    <section>
+        <div class="main-blocks">
+            <div class="blocks">
+                <div class="this-block">
+                    <div class="head">
+                        <h2>Web Design</h2>
+                        <p>Aperiam quis libero voluptatum nobis numquam dolorem est.</p>
+                    </div>
+
+                    <p>Quisquam, quod officia. quod officia.</p>
+                    <p>Quisquam, quod officia.</p>
+                    <p>Quisquam, quod officia.</p>
+                    <p>Quisquam, quod officia. officia</p>
+                    <p>Quisquam, quod officia.</p>
+                    <p>Quisquam, quod officia.</p>
+                    <p>Quisquam, officia quod officia.</p>
+                    <p>Quisquam, quod officia.</p>
+                    <p class="last">Quisquam, quod officia.</p>
+
+                    <div class="btnorder">
+                        <button>Order Now</button>
+                    </div>
+                </div>
+                <div class="this-block">
+                    <div class="head">
+                        <h2>App Development</h2>
+                        <p>Aperiam quis libero voluptatum nobis numquam dolorem est.</p>
+                    </div>
+
+                    <p>Quisquam, quod officia officia.</p>
+                    <p>Quisquam, quod officia.</p>
+                    <p>Quisquam, quod officia.</p>
+                    <p>Quisquam, quod officia.</p>
+                    <p>Quisquam, quod officia.</p>
+                    <p>Quisquam, quod officia officia.</p>
+                    <p>Quisquam, quod officia.</p>
+                    <p>Quisquam, quod officia officia.</p>
+                    <p class="last">Quisquam, quod officia.</p>
+
+                    <div class="btnorder">
+                        <button>Order Now</button>
+                    </div>
+                </div>
+                <div class="this-block">
+                    <div class="head">
+                        <h2>Software Development</h2>
+                        <p>Aperiam quis libero voluptatum nobis numquam dolorem est.</p>
+                    </div>
+
+                    <p>Quisquam, quod officia.</p>
+                    <p>Quisquam, quod officia.</p>
+                    <p>Quisquam, officia quod officia.</p>
+                    <p>Quisquam, quod officia.</p>
+                    <p>Quisquam, quod officia.</p>
+                    <p>Quisquam, quod officia.</p>
+                    <p>Quisquam, quod officia.</p>
+                    <p>Quisquam, quod officia.</p>
+                    <p> uisquam, quod officia officia.</p>
+
+                    <div class="btnorder">
+                        <button>Order Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <!-- Footer section -->
     <footer>
 
@@ -202,17 +274,17 @@
                 <h2>Address</h2>
 
                 <ul class="content">
-                    <a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i> P.O Box 2364</a>
-                    <a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Nairobi, Kitange Street</a>
-                    <a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Kimbo House</a>
-                    <a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i> New Demin</a>
-                    <a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Kenya</a>
+                    <a href="#">P.O Box 2364</a>
+                    <a href="#">Kimbo House</a>
+                    <a href="#">New Demin</a>
+                    <a href="#">Kenya</a>
+                    <a href="#">Nairobi, Kitange Street</a>
                 </ul>
             </div>
         </div>
 
         <div class="footer-bottom">
-            <p>All rights reserved &copy; 2020</p>
+            <p>&copy; 2020 | Designed by Elly Wenani</p>
         </div>
 
     </footer>

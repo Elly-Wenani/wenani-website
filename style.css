@@ -293,15 +293,15 @@ h4,
 }
 
 .client-section {
-    background-color: #ddd;
-    padding-top: 20px;
+    background-color: #fff;
+    padding-top: 100px;
 }
 
 .client-section .sec {
     margin-left: 10%;
     display: flex;
     align-items: center;
-    padding-bottom: 50px;
+    padding-bottom: 20px;
 }
 
 .client-section .sec .client-text {
@@ -342,6 +342,97 @@ h4,
         padding-bottom: 20px;
     }
 }
+
+.info {
+    background-color: #fff;
+    padding-top: 70px;
+    padding-bottom: 80px;
+}
+
+.info h2 {
+    margin-left: 25%;
+    margin-right: 25%;
+    color: #062438;
+    text-align: center;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.main-blocks {
+    background-color: #fff;
+}
+
+.main-blocks .blocks .this-block .head {
+    padding: 50px 0 40px 0;
+    background-color: #eee;
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+}
+
+.main-blocks .blocks .this-block .head h2 {
+    color: #143D59;
+    font-size: 26px;
+}
+
+.main-blocks .blocks .this-block .head p {
+    color: #143D59;
+    font-size: 14px;
+    border-style: none;
+    padding-bottom: 0px;
+}
+
+.main-blocks .blocks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.main-blocks .blocks .this-block {
+    margin: 10px;
+    background-color: rgb(248, 246, 246);
+    width: 30%;
+    padding-bottom: 50px;
+    border-color: #ddd;
+    border-radius: 4px;
+    border-style: solid;
+    border-width: 0.5px;
+}
+
+.main-blocks .blocks .this-block p {
+    padding-top: 18px;
+    padding-bottom: 18px;
+    border-bottom-style: solid;
+    border-width: 0.5px;
+    border-color: #ddd;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.btnorder {
+    padding: 40px;
+}
+
+.btnorder button {
+    font-size: 22px;
+    font-weight: 900;
+    padding: 10px 20px;
+    color: #143D59;
+    border-radius: 4px;
+    border-color: #f4a950;
+    background-color: #00000000;
+}
+
+.btnorder button:hover {
+    border-color: #00000000;
+    background-color: #143D59;
+    color: #ddd;
+}
+
+
+/* Blocks section */
 
 
 /* Footer section */
