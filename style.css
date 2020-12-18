@@ -358,6 +358,20 @@ h4,
     font-size: 30px;
 }
 
+@media screen and (max-width: 800px) {
+    .info {
+        background-color: #fff;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .info h2 {
+        margin-left: 10%;
+        margin-right: 10%;
+        color: #062438;
+        font-size: 24px;
+    }
+}
+
 
 /* Blocks section */
 
