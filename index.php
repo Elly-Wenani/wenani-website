@@ -180,9 +180,6 @@
                     <p>Quisquam, quod officia.</p>
                     <p>Quisquam, quod officia.</p>
                     <p>Quisquam, officia quod officia.</p>
-                    <p>Quisquam, quod officia.</p>
-                    <p class="last">Quisquam, quod officia.</p>
-
                     <div class="btnorder">
                         <button>Order Now</button>
                     </div>
@@ -200,9 +197,6 @@
                     <p>Quisquam, quod officia.</p>
                     <p>Quisquam, quod officia officia.</p>
                     <p>Quisquam, quod officia.</p>
-                    <p>Quisquam, quod officia officia.</p>
-                    <p class="last">Quisquam, quod officia.</p>
-
                     <div class="btnorder">
                         <button>Order Now</button>
                     </div>
@@ -220,9 +214,6 @@
                     <p>Quisquam, quod officia.</p>
                     <p>Quisquam, quod officia.</p>
                     <p>Quisquam, quod officia.</p>
-                    <p>Quisquam, quod officia.</p>
-                    <p> uisquam, quod officia officia.</p>
-
                     <div class="btnorder">
                         <button>Order Now</button>
                     </div>
