@@ -137,7 +137,7 @@ body {
     background-repeat: no-repeat;
     width: 100%;
     height: 90%;
-    padding-top: 0.5px;
+    padding-top: 0.1px;
 }
 
 
@@ -386,8 +386,25 @@ h4,
     border-top-left-radius: 4px;
 }
 
+.main-blocks .blocks .this-block .price {
+    padding-top: 40px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 50px;
+}
+
+.main-blocks .blocks .this-block .price .currency h3 {
+    font-size: 14px;
+}
+
+.main-blocks .blocks .this-block .price .cost h3 b {
+    font-size: 14px;
+}
+
 .main-blocks .blocks .this-block .head h2 {
-    color: #143D59;
+    color: #062438;
     font-size: 26px;
 }
 
@@ -412,7 +429,7 @@ h4,
     background-color: rgb(248, 246, 246);
     width: 30%;
     padding-bottom: 50px;
-    border-color: #ddd;
+    border-color: #0000003a;
     border-radius: 4px;
     border-style: solid;
     border-width: 1px;

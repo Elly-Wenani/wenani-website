@@ -172,7 +172,15 @@
                         <h2>Web Design</h2>
                         <p>Aperiam quis libero voluptatum nobis numquam dolorem est.</p>
                     </div>
+                    <div class="price">
+                        <div class="currency">
+                            <h3>Ksh</h3>
+                        </div>
 
+                        <div class="cost">
+                            <h3>2,503<b>/Yr</b></h3>
+                        </div>
+                    </div>
                     <p>Quisquam, quod officia.</p>
                     <p>Quisquam, quod officia.</p>
                     <p>Quisquam, quod officia.</p>
@@ -189,7 +197,14 @@
                         <h2>App Development</h2>
                         <p>Aperiam quis libero voluptatum nobis numquam dolorem est.</p>
                     </div>
-
+                    <div class="price">
+                        <div class="currency">
+                            <h3>Ksh</h3>
+                        </div>
+                        <div class="cost">
+                            <h3>4,391<b>/Yr</b></h3>
+                        </div>
+                    </div>
                     <p>Quisquam, quod officia officia.</p>
                     <p>Quisquam, quod officia.</p>
                     <p>Quisquam, quod officia.</p>
@@ -206,7 +221,15 @@
                         <h2>Software Development</h2>
                         <p>Aperiam quis libero voluptatum nobis numquam dolorem est.</p>
                     </div>
+                    <div class="price">
+                        <div class="currency">
+                            <h3>Ksh</h3>
+                        </div>
 
+                        <div class="cost">
+                            <h3>6,780<b>/Yr</b></h3>
+                        </div>
+                    </div>
                     <p>Quisquam, quod officia.</p>
                     <p>Quisquam, quod officia.</p>
                     <p>Quisquam, officia quod officia.</p>
