@@ -159,6 +159,40 @@
     </section>
 
     <section>
+        <div class="who-main">
+            <div class="who-header">
+                <h3>Lorem ipsum dolor sit.</h3>
+                <h1>Lorem ipsum dolor.</h1>
+            </div>
+
+            <div class="content">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, sunt sit doloremque dicta nisi non
+                    omnis
+                    animi. Minima eius, possimus, consequatur optio dolore, obcaecati suscipit nesciunt pariatur
+                    officiis
+                    doloribus impedit.</p>
+            </div>
+        </div>
+        <div class="who-blocks">
+            <div class="left-block">
+                <h1>Lorem ipsum</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus optio maiores perferendis?
+                    Exercitationem, rem at? Natus quisquam id vitae voluptatem quaerat molestiae, sapiente sint dolor
+                    tempore quidem ab velit dolorem!</p>
+                <a href="">Learn More</a>
+            </div>
+
+            <div class="right-block">
+                <h1>Lorem ipsum</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus optio maiores perferendis?
+                    Exercitationem, rem at? Natus quisquam id vitae voluptatem quaerat molestiae, sapiente sint dolor
+                    tempore quidem ab velit dolorem!</p>
+                <a href="">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+    <section>
         <div class="info">
             <H2>Maxime quaerat architecto vero, repudiandae in tempore eum libero qui fugiat accusantium harum.</H2>
         </div>
@@ -169,7 +203,7 @@
             <div class="blocks">
                 <div class="this-block">
                     <div class="head">
-                        <h2>Web Design</h2>
+                        <h2>Lorem ipsum</h2>
                         <p>Aperiam quis libero voluptatum nobis numquam dolorem est.</p>
                     </div>
                     <div class="price">
@@ -178,7 +212,7 @@
                         </div>
 
                         <div class="cost">
-                            <h3>2,503<b>/Yr</b></h3>
+                            <h3><b>2,503</b><a>/Yr</a></h3>
                         </div>
                     </div>
                     <p>Quisquam, quod officia.</p>
@@ -194,7 +228,7 @@
                 </div>
                 <div class="this-block">
                     <div class="head">
-                        <h2>App Development</h2>
+                        <h2>Lorem ipsum</h2>
                         <p>Aperiam quis libero voluptatum nobis numquam dolorem est.</p>
                     </div>
                     <div class="price">
@@ -202,7 +236,7 @@
                             <h3>Ksh</h3>
                         </div>
                         <div class="cost">
-                            <h3>4,391<b>/Yr</b></h3>
+                            <h3><b>4,391</b><a>/Yr</a></h3>
                         </div>
                     </div>
                     <p>Quisquam, quod officia officia.</p>
@@ -218,7 +252,7 @@
                 </div>
                 <div class="this-block">
                     <div class="head">
-                        <h2>Software Development</h2>
+                        <h2>Lorem ipsum</h2>
                         <p>Aperiam quis libero voluptatum nobis numquam dolorem est.</p>
                     </div>
                     <div class="price">
@@ -227,8 +261,9 @@
                         </div>
 
                         <div class="cost">
-                            <h3>6,780<b>/Yr</b></h3>
+                            <h3><b>6,780</b><a>/Yr</a></h3>
                         </div>
+
                     </div>
                     <p>Quisquam, quod officia.</p>
                     <p>Quisquam, quod officia.</p>

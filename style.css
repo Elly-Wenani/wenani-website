@@ -5,7 +5,8 @@
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
 }
 
 
@@ -14,7 +15,7 @@ body {
 .topnav {
     background-color: #143D59;
     overflow: hidden;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
 }
 
@@ -92,7 +93,7 @@ body {
 .toptop {
     background-color: #ddd;
     overflow: hidden;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
 }
 
@@ -178,7 +179,7 @@ h4,
 }
 
 .foundation {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     float: right;
     margin-right: 8%;
     margin-top: 4%;
@@ -242,9 +243,7 @@ h4,
 /* Services section */
 
 .main-services {
-    background-color: #ddd;
     padding-top: 0.1;
-    padding-bottom: 40px;
 }
 
 .main-services .services {
@@ -254,7 +253,7 @@ h4,
     justify-content: space-evenly;
     background-color: #143D59;
     color: #ddd;
-    margin-left: 15%;
+    margin: auto;
 }
 
 @media screen and (max-width: 920px) {
@@ -373,10 +372,103 @@ h4,
 }
 
 
+/* Who we are section */
+
+.who-main {
+    padding-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 10%;
+    font-size: 18px;
+    margin-left: 10%;
+    justify-content: center;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.who-main .who-header h3 {
+    color: #f4a950;
+    font-size: 25px;
+}
+
+.who-main .who-header h1 {
+    font-size: 40px;
+    color: #062438;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+
+
+/* Who we are Blocks */
+
+.who-blocks {
+    display: flex;
+    padding-top: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.who-blocks .left-block {
+    margin-left: 15%;
+    margin-right: 8px;
+    background-color: #143D59;
+    padding: 40px;
+    text-align: center;
+    color: #eee;
+    font-size: 18px;
+    border-radius: 8px;
+}
+
+.who-blocks .left-block h1 {
+    padding-top: 30px;
+    padding-bottom: 15px;
+    font-size: 40px;
+    color: #f4a950;
+}
+
+.who-blocks .left-block p {
+    padding-bottom: 30px;
+}
+
+.who-blocks .right-block p {
+    padding-bottom: 30px;
+}
+
+.who-blocks .left-block a {
+    color: #f4a950;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.who-blocks .right-block a {
+    color: #062438;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.who-blocks .right-block h1 {
+    padding-top: 30px;
+    padding-bottom: 15px;
+    font-size: 40px;
+    color: #062438;
+}
+
+.who-blocks .right-block {
+    margin-right: 15%;
+    margin-left: 8px;
+    background-color: #f4a950;
+    padding: 40px;
+    text-align: center;
+    color: #062438;
+    font-size: 18px;
+    border-radius: 8px;
+}
+
+
 /* Blocks section */
 
 .main-blocks {
     background-color: #fff;
+    color: #000;
 }
 
 .main-blocks .blocks .this-block .head {
@@ -392,25 +484,30 @@ h4,
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    font-size: 50px;
 }
 
 .main-blocks .blocks .this-block .price .currency h3 {
-    font-size: 14px;
+    font-size: 16px;
 }
 
-.main-blocks .blocks .this-block .price .cost h3 b {
-    font-size: 14px;
+.main-blocks .blocks .this-block .price .cost h3 {
+    font-size: 55px;
+}
+
+.main-blocks .blocks .this-block .price .cost h3 a {
+    font-size: 16px;
+    text-decoration: none;
+    color: #000;
 }
 
 .main-blocks .blocks .this-block .head h2 {
     color: #062438;
-    font-size: 26px;
+    font-size: 35px;
 }
 
 .main-blocks .blocks .this-block .head p {
     color: #143D59;
-    font-size: 14px;
+    font-size: 18px;
     border-style: none;
     padding-bottom: 0px;
 }
@@ -443,6 +540,7 @@ h4,
     border-color: #ddd;
     margin-left: 10%;
     margin-right: 10%;
+    font-size: 18px;
 }
 
 .btnorder {
