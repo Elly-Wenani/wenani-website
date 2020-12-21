@@ -95,40 +95,46 @@ body {
     overflow: hidden;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
+    padding: 7px;
 }
 
 .toptop-left {
     float: left;
     text-decoration: none;
+    padding-left: 1%;
 }
 
 .toptop-right {
     float: right;
+    text-decoration: none;
 }
 
 .toptop-left a {
     display: inline-flex;
     color: #143D59;
-    padding: 10px 12px;
-    margin: 10px;
-    font-weight: 600;
-    text-decoration: none;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .toptop-left:hover a {
     text-decoration: none;
 }
 
-.toptop-right .btnright {
-    margin: 10px;
+.toptop-right a {
+    display: inline-flex;
     color: #143D59;
     background-color: #ddd;
-    border-color: #143D59;
-    padding: 5px 30px;
-    border-radius: 5px;
-    font-size: 18px;
-    font-weight: 600;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 0 15px 0 15px;
+}
+
+@media screen and (max-width: 400px) {
+    .toptop .toptop-left {
+        display: none;
+    }
+    .toptop .toptop-right {
+        display: contents;
+    }
 }
 
 .mainpage {
@@ -143,6 +149,10 @@ body {
 
 
 /*Login modal*/
+
+.modal {
+    display: none;
+}
 
 .modal-header,
 h4,
