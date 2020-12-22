@@ -8,13 +8,10 @@
 </head>
 
 <body>
-    <h2>Responsive Social Login Form</h2>
-    <p>Resize the browser window to see the responsive effect. When the screen is less than 650px wide, make the two columns stack on top of each other instead of next to each other.</p>
-
     <div class="container">
         <form action="/action_page.php">
             <div class="row">
-                <h2 style="text-align:center">Login with Social Media or Manually</h2>
+                <h2 style="text-align:center">Login</h2>
                 <div class="vl">
                     <span class="vl-innertext">or</span>
                 </div>
@@ -26,9 +23,9 @@
                     <a href="#" class="twitter btn">
                         <i class="fa fa-twitter fa-fw"></i> Login with Twitter
                     </a>
-                    <a href="#" class="google btn"><i class="fa fa-google fa-fw">
-          </i> Login with Google+
-        </a>
+                    <a href="#" class="email btn"><i class="fa fa-google fa-fw">
+                        </i> Login with Email
+                    </a>
                 </div>
 
                 <div class="col">
@@ -48,10 +45,10 @@
     <div class="bottom-container">
         <div class="row">
             <div class="col">
-                <a href="#" style="color:white" class="btn">Sign up</a>
+                <a href="#" class="btn">Sign up</a>
             </div>
             <div class="col">
-                <a href="#" style="color:white" class="btn">Forgot password?</a>
+                <a href="#" class="btn">Forgot password?</a>
             </div>
         </div>
     </div>
