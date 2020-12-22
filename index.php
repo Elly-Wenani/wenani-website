@@ -27,7 +27,7 @@
                 <a href="">|</a>
             </div>
             <div class="toptop-right">
-                <a href="">Login</a>
+                <a href="login/login.php">Login</a>
             </div>
         </div>
 
@@ -41,7 +41,6 @@
             <a href="">Careers</a>
             <a href="contact.php">Contact Us</a>
             <a href="" class="right-side">Account<i class="fa fa-caret-down"></i></a>
-
             <a href="javascript:void(0);" class="icon" onclick="myFunction()">
                 <i class="fa fa-bars"></i>
             </a>
@@ -342,4 +341,5 @@
     </footer>
     <script src="js/javascript.js"></script>
 </body>
+
 </html>

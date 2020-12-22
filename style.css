@@ -21,6 +21,7 @@ body {
 
 .right-side {
     float: right;
+    cursor: pointer;
 }
 
 .right-side i {
