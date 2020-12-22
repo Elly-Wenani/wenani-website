@@ -137,16 +137,6 @@ body {
     }
 }
 
-.mainpage {
-    background-image: url(images/back.jpg);
-    background-size: cover;
-    background-position: top;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 90%;
-    padding-top: 0.1px;
-}
-
 
 /*Login modal*/
 
@@ -188,11 +178,33 @@ h4,
     font-weight: 600;
 }
 
+.mainpage {
+    background-image: url(images/back.jpg);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 80%;
+    padding-top: 0.1px;
+}
+
+@media screen and (max-width: 800px) {
+    .mainpage {
+        background-size: auto;
+        background-position: top;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 90%;
+        padding-top: 0.1px;
+    }
+}
+
 .foundation {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     float: right;
     margin-right: 8%;
     margin-top: 4%;
+    margin-bottom: 20px;
 }
 
 .foundation h1 {
@@ -200,7 +212,7 @@ h4,
     font-size: 400%;
     font-weight: 600;
     margin-left: 8px;
-    margin-top: 50px;
+    margin-top: 40px;
 }
 
 .foundation p {
@@ -228,12 +240,8 @@ h4,
     color: #fff;
     margin-left: 8px;
     margin-right: 20px;
-    margin-top: 80px;
+    margin-top: 5%;
     font-size: 16px;
-}
-
-.btnreadmore:hover {
-    color: #f4a950;
 }
 
 .btngetstarted {
@@ -245,6 +253,10 @@ h4,
     font-size: 16px;
 }
 
+.btnreadmore:hover {
+    color: #f4a950;
+}
+
 .btngetstarted:hover {
     color: #143D59;
 }
@@ -253,7 +265,7 @@ h4,
 /* Services section */
 
 .main-services {
-    padding-top: 0.1;
+    padding-top: 0.1px;
 }
 
 .main-services .services {
@@ -263,29 +275,27 @@ h4,
     justify-content: space-evenly;
     background-color: #143D59;
     color: #ddd;
-    margin: auto;
 }
 
-@media screen and (max-width: 920px) {
+
+/* @media screen and (max-width: 920px) {
     .main-services .services {
         background-color: #143D59;
-        margin: auto;
         padding-top: 0.1;
         padding-bottom: 10;
     }
-}
+} */
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 800px) {
     .main-services .services {
         display: block;
         background-color: #143D59;
-        margin: auto;
-        padding-top: 0.1;
         padding-bottom: 10;
     }
     .main-services .services h2 {
         font-size: 16px;
         text-align: center;
+        padding-top: 15px;
     }
     .main-services .services h1 {
         display: none;
@@ -428,6 +438,32 @@ h4,
     border-radius: 8px;
 }
 
+.who-blocks .right-block {
+    margin-right: 15%;
+    margin-left: 8px;
+    background-color: #f4a950;
+    padding: 40px;
+    text-align: center;
+    color: #062438;
+    font-size: 18px;
+    border-radius: 8px;
+}
+
+@media screen and (max-width: 800px) {
+    .who-blocks {
+        flex-direction: column;
+    }
+    .who-blocks .left-block {
+        margin-left: 4%;
+        margin-right: 4%;
+    }
+    .who-blocks .right-block {
+        margin-top: 20px;
+        margin-right: 4%;
+        margin-left: 4%;
+    }
+}
+
 .who-blocks .left-block h1 {
     padding-top: 30px;
     padding-bottom: 15px;
@@ -460,17 +496,6 @@ h4,
     padding-bottom: 15px;
     font-size: 40px;
     color: #062438;
-}
-
-.who-blocks .right-block {
-    margin-right: 15%;
-    margin-left: 8px;
-    background-color: #f4a950;
-    padding: 40px;
-    text-align: center;
-    color: #062438;
-    font-size: 18px;
-    border-radius: 8px;
 }
 
 
