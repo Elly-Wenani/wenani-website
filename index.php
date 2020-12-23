@@ -21,13 +21,13 @@
                 <a>info@example.com</a>
             </div>
             <div class="toptop-right">
-                <a href="">Register</a>
+                <a href="account/sign-up.php">Register</a>
             </div>
             <div class="toptop-right">
                 <a href="">|</a>
             </div>
             <div class="toptop-right">
-                <a href="login/login.php">Login</a>
+                <a href="account/login.php">Login</a>
             </div>
         </div>
 
@@ -57,48 +57,6 @@
             <div class="sbtnhome">
                 <button class="btnreadmore">Read More</button>
                 <button class="btngetstarted">Get Started</button>
-            </div>
-        </div>
-    </section>
-
-    <!-- Code for modal -->
-    <section>
-        <!-- Modal -->
-        <div class="modal fade" id="myModal" role="dialog">
-            <div class="modal-dialog">
-
-                <!-- Modal content-->
-                <div class="modal-content">
-                    <div class="modal-header" style="padding:35px 50px;">
-                        <button type="button" class="close" data-dismiss="modal">&times;</button>
-                        <h4 class="hlogin">Login</h4>
-                    </div>
-                    <div class="modal-body" style="padding:40px 50px;">
-                        <form role="form">
-                            <div class="form-group">
-                                <label for="usrname"><span class="glyphicon glyphicon-user"></span> Email</label>
-                                <input type="email" class="form-control" id="usrname" placeholder="Enter email"
-                                    required>
-                            </div>
-                            <div class="form-group">
-                                <label for="psw"><span class="glyphicon glyphicon-eye-open"></span> Password</label>
-                                <input type="password" class="form-control" id="psw" placeholder="Enter password"
-                                    required>
-                            </div>
-                            <div class="checkbox">
-                                <label><input type="checkbox" value="" checked>Remember me</label>
-                            </div>
-                            <button type="submit" class="btnloglog">Login</button>
-                        </form>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal"><span
-                                class="glyphicon glyphicon-remove"></span> Cancel</button>
-                        <p>Not a member? <a href="#">Sign Up</a></p>
-                        <p>Forgot <a href="#">Password?</a></p>
-                    </div>
-                </div>
-
             </div>
         </div>
     </section>
