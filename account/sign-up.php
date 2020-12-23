@@ -19,17 +19,21 @@
             </div>
             <div class="signup-form">
                 <form action="dashboard.php">
-                    <input type="text" name="username" placeholder="Enter Username" required>
+                    <input type="text" class="firstname" name="firstname" placeholder="First Name" required>
+                    <input type="text" class="lastname" name="lastname" placeholder="Last Name" required>
                     <input type="email" name="email" placeholder="Enter Email" required>
                     <input type="password" name="password" placeholder="Enter Password" required>
                     <input type="password" name="password" placeholder="Repeat Password" required>
                     <hr>
-                    <p>By creating an account you agree to our <a href="">Terms & Privacy.</a></p>
+                    <p>
+                        <input type="checkbox" name="agree" id="agree" required>
+                        I have read and agree to the <a href="">Terms of Service.</a>
+                    </p>
                     <input type="submit" value="Sign Up">
                 </form>
             </div>
             <div class="form-footer">
-                <p>Already have an account? <a href="">Sign in.</a></p>
+                <p>Already have an account? <a href="login.php">Sign in.</a></p>
             </div>
         </div>
     </section>

@@ -33,7 +33,7 @@
                         <p>Or sign in manually</p>
                     </div>
 
-                    <input type="text" name="username" placeholder="Username" required>
+                    <input type="email" name="email" placeholder="Enter Email" required>
                     <input type="password" name="password" placeholder="Password" required>
                     <input type="submit" value="Login">
                 </div>
@@ -45,7 +45,7 @@
     <div class="bottom-container">
         <div class="row">
             <div class="col">
-                <a href="#" class="btn">Sign up</a>
+                <a href="sign-up.php" class="btn">Sign up</a>
             </div>
             <div class="col">
                 <a href="#" class="btn">Forgot password?</a>
