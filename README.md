@@ -3,4 +3,4 @@ A website for companies and cooperatates. Doing from end with html, css and java
 
 # Website Address
 I have hosted the website on heroku.
-http://wenani.herokuapp.com
+https://wenani.herokuapp.com
