@@ -254,6 +254,20 @@
             </div>
         </div>
     </section>
+    <section>
+        <div class="contact-section">
+
+            <div class="contact-details">
+                <h1>Contact Us</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis nisi corrupti a ratione
+                    voluptatibus provident rerum, voluptas itaque aliquam, in officia fugit placeat hic inventore
+                    doloremque cupiditate iusto blanditiis delectus?</p>
+            </div>
+            <div class="contact-button">
+                <button class="btn-contact-us">Get In Touch</button>
+            </div>
+        </div>
+    </section>
     <!-- Footer section -->
     <footer>
 
