@@ -7,8 +7,11 @@ function myFunction() {
     }
 }
 
-$(document).ready(function() {
-    $("#myBtn").click(function() {
-        $("#myModal").modal();
-    });
-});
+function myDFunction() {
+    var x = document.getElementById("mydropdown");
+    if (x.className === "dropdown") {
+        x.className += " account";
+    } else {
+        x.className = "dropdown";
+    }
+}

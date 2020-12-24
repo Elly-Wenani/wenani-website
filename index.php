@@ -40,10 +40,24 @@
             <a href="">Affiliate</a>
             <a href="">Careers</a>
             <a href="contact.php">Contact Us</a>
-            <a href="" class="right-side">Account<i class="fa fa-caret-down"></i></a>
+            <a href="javascript:void(0);" class="right-side" onclick="myDFunction()">More<i
+                    class="fa fa-caret-down"></i></a>
             <a href="javascript:void(0);" class="icon" onclick="myFunction()">
                 <i class="fa fa-bars"></i>
             </a>
+
+            <!-- <div class="dropdown" id="mydropdown">
+                <div>
+                    <a href="">Register</a>
+                    <a href="">Login</a>
+                    <a href="">Profile</a>
+                </div>
+                <div>
+                    <a href="">Register</a>
+                    <a href="">Login</a>
+                    <a href="">Profile</a>
+                </div>
+            </div> -->
         </div>
     </section>
 
