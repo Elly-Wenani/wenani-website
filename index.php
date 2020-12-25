@@ -6,6 +6,7 @@
     <title>Elly Wenani</title>
 
     <link rel="stylesheet" href="style.css">
+    <!-- <link rel="shortcut icon" type="image/jpg" href="Favicon_Image_Location"/> -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -37,7 +38,7 @@
             <a href="">Store</a>
             <a href="">Domain</a>
             <a href="">Hosting</a>
-            <a href="">Affiliate</a>
+            <a href="account/login.php">Affiliate</a>
             <a href="">Careers</a>
             <a href="contact.php">Contact Us</a>
             <a href="javascript:void(0);" class="right-side" onclick="myDFunction()">More<i
