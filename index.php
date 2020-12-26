@@ -34,13 +34,13 @@
 
         <!-- Bellow topmost header section -->
         <div class="topnav" id="myTopnav">
-            <a href="" class="active">Home</a>
+            <a class="active">Home</a>
             <a href="">Store</a>
             <a href="">Domain</a>
             <a href="">Hosting</a>
             <a href="account/login.php">Affiliate</a>
             <a href="">Careers</a>
-            <a href="contact.php">Contact Us</a>
+            <a href="pages/contact.html">Contact Us</a>
             <a href="javascript:void(0);" class="right-side" onclick="myDFunction()">More<i
                     class="fa fa-caret-down"></i></a>
             <a href="javascript:void(0);" class="icon" onclick="myFunction()">
