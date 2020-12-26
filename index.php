@@ -268,8 +268,7 @@
                 <button class="btn-contact-us">Get In Touch</button>
             </div>
         </div>
-    </section>
-    <!-- Footer section -->
+    </section>    <!-- Footer section -->
     <footer>
 
         <div class="footer-content">
@@ -278,8 +277,7 @@
                 <h2>About Us</h2>
 
                 <ul class="content">
-                    <p>Lorem ipsum dolor sit, <br>amet consectetur adipisicing elit.<br> Maxime adipisci unde<br>ipsum
-                        fugit aliquid voluptatum, <br>quos, pariatur molestias ullam, <br>dolores doloribus repellendus
+                    <p>Lorem ipsum dolor sit, <br>amet consectetur adipisicing elit.<br> Maxime adipisci unde<br>ipsum fugit aliquid voluptatum, <br>quos, pariatur molestias ullam, <br>dolores doloribus repellendus
                         <br>blanditiis et atque.
                     </p>
 
@@ -300,11 +298,11 @@
             <div class="right-center box">
                 <h2>Contact Us</h2>
                 <ul class="content">
-                    <a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Web Design</a>
-                    <a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Software Development</a>
-                    <a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Networking</a>
-                    <a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Application Development</a>
-                    <a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Web Hosting</a>
+                    <a i class="fa fa-angle-double-right" aria-hidden="true"></i>Lorem ipsum</a>
+                    <a i class="fa fa-angle-double-right" aria-hidden="true"></i>info@example.com</a>
+                    <a i class="fa fa-angle-double-right" aria-hidden="true"></i>+254716633280</a>
+                    <a i class="fa fa-angle-double-right" aria-hidden="true"></i> +254712345678</a>
+                    <a i class="fa fa-angle-double-right" aria-hidden="true"></i> Application Development</a>
                 </ul>
             </div>
 
@@ -313,11 +311,11 @@
                 <h2>Address</h2>
 
                 <ul class="content">
-                    <a href="#">P.O Box 2364</a>
-                    <a href="#">Kimbo House</a>
-                    <a href="#">New Demin</a>
-                    <a href="#">Kenya</a>
-                    <a href="#">Nairobi, Kitange Street</a>
+                    <a>P.O Box 2364,</a>
+                    <a>Kimbo House,</a>
+                    <a>Kitange Street</a>
+                    <a>Nairobi,</a>
+                    <a>Kenya</a>
                 </ul>
             </div>
         </div>

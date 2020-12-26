@@ -1,3 +1,83 @@
-body {
-    background-color: aqua;
+.contact-main-section {
+    background-image: url(/webprac/account/images/loginback1.jpg);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+}
+
+.contact-sub-section {
+    display: flex;
+    margin: 0 5% 0 5%;
+}
+
+.map {
+    width: 50%;
+}
+
+.map h2 {
+    padding: 50px 0 10px 0;
+    color: #143D59;
+}
+
+.my-contact-form {
+    width: 50%;
+}
+
+.my-contact-form h2 {
+    padding: 50px 0 10px 0;
+    color: #143D59;
+}
+
+.my-contact-form p {
+    padding: 0 0 20px 0;
+}
+
+input[type=text] {
+    padding: 10px 0 10px 0;
+    width: 49%;
+    margin: 10px 0 10px 0;
+    font-size: 16px;
+}
+
+input[type=tel],
+input[type=email] {
+    font-size: 16px;
+    width: 49%;
+    padding: 10px 0 10px 0;
+    margin: 10px 0 10px 0;
+}
+
+input[type=subject] {
+    width: 98.6%;
+    font-size: 16px;
+    padding: 10px 0 10px 0;
+    margin: 10px 0 10px 0;
+}
+
+::placeholder {
+    padding: 0 0 0 2px;
+}
+
+textarea {
+    width: 98.6%;
+    font-size: 16px;
+}
+
+input[type=submit] {
+    padding: 10px 15px 10px 15px;
+    border-color: #00000000;
+    border-radius: 4px;
+    margin: 10px 0 20px 0;
+    background-color: #143D59;
+    color: #f4a950;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+input[type=submit]:hover {
+    color: #143D59;
+    background-color: #f4a950;
 }
