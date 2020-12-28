@@ -268,7 +268,9 @@
                 <button class="btn-contact-us">Get In Touch</button>
             </div>
         </div>
-    </section>    <!-- Footer section -->
+    </section>
+    
+    <!-- Footer section -->
     <footer>
 
         <div class="footer-content">
