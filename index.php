@@ -324,7 +324,7 @@
             <p>&copy; 2020 | Designed by Elly Wenani</p>
         </div>
     </footer>
-    <script src="js/javascript.js"></script>
+    <script src="js/script.js"></script>
 </body>
 
 </html>

@@ -700,7 +700,7 @@ h4,
 
 .contact-section {
     display: flex;
-    margin-top: 40px;
+    margin: 40px 0 50px 0;
     margin-left: 15%;
     margin-right: 15%;
     text-align: center;
@@ -763,7 +763,7 @@ h4,
 /* Footer section */
 
 footer {
-    margin-top: 50px;
+    /* margin-top: 50px; */
     background: #143D59;
     width: 100%;
 }
@@ -785,7 +785,6 @@ footer {
 }
 
 .footer-content .box {
-    /* flex-basis: 50%; */
     padding: 10px 20px;
 }
 
