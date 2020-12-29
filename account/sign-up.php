@@ -11,7 +11,7 @@
 
 <body>
 
-<section>
+    <section>
         <!-- Bellow topmost header section -->
         <div class="topnav" id="myTopnav">
             <a href="/webprac/index.php">Home</a>

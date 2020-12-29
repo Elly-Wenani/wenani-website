@@ -32,6 +32,15 @@ body {
     text-align: center;
 }
 
+
+/* Sticky navbar */
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
 .right-side {
     float: right;
     cursor: pointer;
