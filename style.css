@@ -584,7 +584,7 @@ h4,
 }
 
 .main-blocks .blocks .this-block:hover {
-    background-color: rgb(236, 236, 243)
+    box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2);
 }
 
 .main-blocks .blocks .this-block .head {
@@ -766,6 +766,55 @@ h4,
         padding-right: 0%;
         margin-left: 0%;
     }
+}
+
+
+/* News signup section */
+
+.main-signup {
+    background-color: #143D59;
+    margin: 0 0 50px 0;
+    text-align: center;
+}
+
+.main-signup h2 {
+    padding: 80px 0 25px 0;
+    font-size: 25px;
+    color: #fff;
+}
+
+.sign-inputtext {
+    padding: 0 0 80px 0;
+}
+
+input[type=email] {
+    padding: 11px 0 11px 0;
+    width: 300px;
+    border-radius: 4px;
+    border-style: none;
+    padding-left: 20px;
+    font-size: 18px;
+}
+
+input[type=email]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+input[type=submit] {
+    padding: 11px 25px 11px 25px;
+    border-style: none;
+    font-size: 18px;
+    border-radius: 0 4px 4px 0;
+    margin: 0 0 0 -15px;
+    background-color: #f4a950;
+    color: #062438;
+    font-weight: 600;
+    outline: none;
+}
+
+input[type=submit]:hover {
+    background-color: #df9a45;
 }
 
 

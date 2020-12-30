@@ -174,6 +174,8 @@
         </div>
     </section>
 
+
+    <!-- Pricing blocks section -->
     <section>
         <div class="main-blocks">
             <div class="blocks">
@@ -266,6 +268,21 @@
             </div>
             <div class="contact-button">
                 <button class="btn-contact-us">Get In Touch</button>
+            </div>
+        </div>
+    </section>
+
+        <!-- News signup section -->
+        <section>
+        <div class="main-signup">
+            <div class="sign-head">
+                <h2>Stay up to date with the news</h2>
+            </div>
+            <div class="sign-inputtext">
+                <form action="/signup.php">
+                <input type="email" name="signupemail" id="signupemail" placeholder="Enter your email" required>
+                <input type="submit" value="Sign Up">
+            </form>
             </div>
         </div>
     </section>

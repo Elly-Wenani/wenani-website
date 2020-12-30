@@ -578,7 +578,7 @@ h4,
 }
 
 .main-blocks .blocks .this-block:hover {
-    background-color: rgb(236, 236, 243)
+    box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2);
 }
 
 .main-blocks .blocks .this-block .head {
