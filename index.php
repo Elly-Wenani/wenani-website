@@ -272,21 +272,41 @@
         </div>
     </section>
 
-        <!-- News signup section -->
-        <section>
+    <!-- News signup section -->
+    <section>
         <div class="main-signup">
             <div class="sign-head">
                 <h2>Stay up to date with the news</h2>
             </div>
             <div class="sign-inputtext">
                 <form action="/signup.php">
-                <input type="email" name="signupemail" id="signupemail" placeholder="Enter your email" required>
-                <input type="submit" value="Sign Up">
-            </form>
+                    <input type="email" name="signupemail" id="signupemail" placeholder="Enter your email" required>
+                    <input type="submit" value="Sign Up">
+                </form>
+            </div>
+        </div>
+
+        <!-- Social media section -->
+        <div class="socialmedia">
+            <div class="social-left">
+                <h2>Lorem Ipsum</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid blanditiis necessitatibus
+                    consequuntur.</p>
+            </div>
+            <div class="social-right">
+                <div class="facebook">
+                    <p>Facebook</p>
+                </div>
+                <div class="twitter">
+                    <p>Twitter</p>
+                </div>
+                <div class="instagram">
+                    <p>Instagram</p>
+                </div>
             </div>
         </div>
     </section>
-    
+
     <!-- Footer section -->
     <footer>
 
@@ -296,7 +316,8 @@
                 <h2>About Us</h2>
 
                 <ul class="content">
-                    <p>Lorem ipsum dolor sit, <br>amet consectetur adipisicing elit.<br> Maxime adipisci unde<br>ipsum fugit aliquid voluptatum, <br>quos, pariatur molestias ullam, <br>dolores doloribus repellendus
+                    <p>Lorem ipsum dolor sit, <br>amet consectetur adipisicing elit.<br> Maxime adipisci unde<br>ipsum
+                        fugit aliquid voluptatum, <br>quos, pariatur molestias ullam, <br>dolores doloribus repellendus
                         <br>blanditiis et atque.
                     </p>
 
