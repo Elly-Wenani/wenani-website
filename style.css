@@ -817,6 +817,21 @@ input[type=submit]:hover {
     background-color: #df9a45;
 }
 
+@media screen and (max-width: 500px) {
+    .sign-inputtext {
+        padding: 0 4% 80px 4%;
+    }
+    input[type=email] {
+        width: 100%;
+        margin: 0 0 40px 0;
+    }
+    input[type=submit] {
+        border-radius: 4px;
+        width: 100%;
+        margin: 0 0 0 0;
+    }
+}
+
 
 /* Social media section */
 
