@@ -2,15 +2,17 @@
 <html lang="en">
 
 <head>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="contact-style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us</title>
+    <title>Domain</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="domain-style.css">
+
 </head>
 
 <body>
-    <!-- top section -->
+
+    <!-- Header and navbar section -->
     <section>
 
         <!-- Top most header section -->
@@ -19,24 +21,24 @@
                 <a>info@example.com</a>
             </div>
             <div class="toptop-right">
-                <a href="/account/sign-up.php">Register</a>
+                <a href="account/sign-up.php">Register</a>
             </div>
             <div class="toptop-right">
                 <a href="">|</a>
             </div>
             <div class="toptop-right">
-                <a href="/account/login.php">Login</a>
+                <a href="account/login.php">Login</a>
             </div>
         </div>
 
         <!-- Bellow topmost header section -->
         <div class="topnav" id="myTopnav">
             <a href="/index.php">Home</a>
-            <a href="">Domain</a>
+            <a class="active">Domain</a>
             <a href="">Hosting</a>
             <a href="/account/login.php">Affiliate</a>
             <a href="">Careers</a>
-            <a class="active">Contact Us</a>
+            <a href="/pages/contact.html">Contact Us</a>
             <a href="javascript:void(0);" class="right-side" onclick="myDFunction()">More<i
                     class="fa fa-caret-down"></i></a>
             <a href="javascript:void(0);" class="icon" onclick="myFunction()">
@@ -58,47 +60,40 @@
         </div>
     </section>
 
-    <!-- main section -->
-
-    <div class="contact-main-section">
-
-        <div class="contact-sub-section">
-            <div class="map">
-                <h2>Find us on google maps</h2>
-                <div class="gmap_canvas"><iframe id="gmap_canvas" src="https://maps.google.com/maps?q=university%20of%20san%20francisco&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
-                </div>
+    <!-- News signup section -->
+    <section>
+        <div class="main-signup">
+            <div class="sign-head">
+                <h2>Domain Search</h2>
             </div>
+            <div class="sign-inputtext">
+                <form action="domain.html">
+                    <input type="search" name="search" id="search" placeholder="Domain search" required>
+                    <input type="submit" value="Search">
+                </form>
+            </div>
+        </div>
 
-            <div class="my-contact-form">
-                <h2>Get in touch with us</h2>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores commodi quidem pariatur, accusamus dolore quos nesciunt inventore laudantium!</p>
-
-                <div class="contact-style">
-                    <form action="contact-us.html">
-                        <!-- <label for="">First Name</label> -->
-                        <input type="text" name="firstname" id="firstname" placeholder="First Name" required>
-
-                        <!-- <label for="">Last Name</label> -->
-                        <input type="text" name="lastname" id="lastname" placeholder="Last Name" required>
-
-                        <!-- <label for="">Phone Number</label> -->
-                        <input type="tel" name="number" id="number" placeholder="Phone Number" required>
-
-                        <!-- <label for="">Email</label> -->
-                        <input type="email" name="email" id="email" placeholder="Email Address" required>
-
-                        <!-- <label for="">Subject</label> -->
-                        <input type="subject" name="subject" id="subject" placeholder="Subject" required>
-
-                        <!-- <label for="">Message</label> -->
-                        <textarea name="textarea" id="texarea" cols="" rows="10" placeholder="Briefly describe your message here..."></textarea>
-
-                        <input type="submit" value="Send Request">
-                    </form>
+        <!-- Social media section -->
+        <div class="socialmedia">
+            <div class="social-left">
+                <h2>Lorem Ipsum</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid blanditiis necessitatibus consequuntur.
+                </p>
+            </div>
+            <div class="social-right">
+                <div class="facebook">
+                    <p>Facebook</p>
+                </div>
+                <div class="twitter">
+                    <p>Twitter</p>
+                </div>
+                <div class="instagram">
+                    <p>Instagram</p>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 
     <!-- Footer section -->
     <footer>
@@ -157,7 +152,6 @@
         </div>
     </footer>
     <script src="/js/script.js"></script>
-
 </body>
 
 </html>

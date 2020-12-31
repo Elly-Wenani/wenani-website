@@ -1,3 +1,11 @@
+/* Sticky navbar */
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
 .contact-main-section {
     background-image: url(/webprac/account/images/loginback1.jpg);
     background-size: cover;

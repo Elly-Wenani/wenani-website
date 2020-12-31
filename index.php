@@ -14,6 +14,8 @@
 </head>
 
 <body>
+
+<!-- Header and navbar section -->
     <section>
 
         <!-- Top most header section -->
@@ -35,8 +37,7 @@
         <!-- Bellow topmost header section -->
         <div class="topnav" id="myTopnav">
             <a class="active">Home</a>
-            <a href="">Store</a>
-            <a href="">Domain</a>
+            <a href="pages/domain.html">Domain</a>
             <a href="">Hosting</a>
             <a href="account/login.php">Affiliate</a>
             <a href="">Careers</a>
@@ -338,9 +339,9 @@
             <div class="right-center box">
                 <h2>Contact Us</h2>
                 <ul class="content">
-                    <a i class="fa fa-angle-double-right" aria-hidden="true"></i>Lorem ipsum</a>
-                    <a i class="fa fa-angle-double-right" aria-hidden="true"></i>info@example.com</a>
-                    <a i class="fa fa-angle-double-right" aria-hidden="true"></i>+254716633280</a>
+                    <a i class="fa fa-angle-double-right" aria-hidden="true"></i> Lorem ipsum</a>
+                    <a i class="fa fa-angle-double-right" aria-hidden="true"></i> info@example.com</a>
+                    <a i class="fa fa-angle-double-right" aria-hidden="true"></i> +254716633280</a>
                     <a i class="fa fa-angle-double-right" aria-hidden="true"></i> +254712345678</a>
                     <a i class="fa fa-angle-double-right" aria-hidden="true"></i> Application Development</a>
                 </ul>
