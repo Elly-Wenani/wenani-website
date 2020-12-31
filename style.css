@@ -575,8 +575,71 @@ h4,
     color: #062438;
 }
 
+.main-message {
+    margin: 100px 0 0 0;
+}
 
-/* Blocks section */
+.message hr {
+    height: 2px;
+    background-color: #f4a950;
+    border-style: none;
+    margin: 8px 0 10px 0;
+}
+
+.message {
+    display: flex;
+    margin: 50px 10% 50px 10%;
+    align-items: center;
+}
+
+.picture {
+    background-image: url(images/lady.jpg);
+    background-size: 100% 100% cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 400px;
+}
+
+.text {
+    width: 50%;
+    padding: 0 0 0 2%;
+}
+
+.text h5 {
+    font-size: 16px;
+    color: #df9a45;
+}
+
+.text h2 {
+    font-size: 40px;
+    color: #143D59;
+}
+
+.text p {
+    font-size: 20px;
+    color: #062438;
+}
+
+.btnsmsreadmore {
+    padding: 10px 20px 10px 20px;
+    outline: none;
+    border-style: none;
+    color: #f4a950;
+    background-color: #143D59;
+    border-radius: 4px;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 20px 0 0 0;
+}
+
+.btnsmsreadmore:hover {
+    color: #143D59;
+    background-color: #f4a950;
+}
+
+
+/* Pricing Blocks section */
 
 .main-blocks {
     background-color: #fff;

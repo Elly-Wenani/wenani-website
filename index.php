@@ -15,7 +15,7 @@
 
 <body>
 
-<!-- Header and navbar section -->
+    <!-- Header and navbar section -->
     <section>
 
         <!-- Top most header section -->
@@ -170,6 +170,31 @@
             </div>
         </div>
     </section>
+
+    <!-- Message section -->
+    <section>
+        <div class="main-message">
+            <!-- <hr> -->
+            <div class="message">
+                <div class="picture">
+                </div>
+
+                <div class="text">
+                    <h5>Lorem Ipsum</h5>
+                    <h2>Lorem Ipsum</h2>
+                    <hr>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt vero molestias expedita
+                        corrupti eum laboriosam obcaecati vel nihil itaque eligendi corporis fuga suscipit ipsa rem,
+                        nulla nemo quod? Eveniet, nisi?</p>
+                    <br>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum cupiditate ex et, magni eum
+                        explicabo odit culpa amet eius.</p>
+                    <button class="btnsmsreadmore">Read More</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
 
     <section>
         <div class="info">
