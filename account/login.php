@@ -13,13 +13,13 @@
     <section>
         <!-- Bellow topmost header section -->
         <div class="topnav" id="myTopnav">
-            <a href="/webprac/index.php">Home</a>
+            <a href="/index.php">Home</a>
             <a href="">Store</a>
             <a href="">Domain</a>
             <a href="">Hosting</a>
             <a>Affiliate</a>
             <a href="">Careers</a>
-            <a href="/webprac/pages/contact.html">Contact Us</a>
+            <a href="/pages/contact.html">Contact Us</a>
             <a href="javascript:void(0);" class="right-side" onclick="myDFunction()">More<i
                     class="fa fa-caret-down"></i></a>
             <a href="javascript:void(0);" class="icon" onclick="myFunction()">
