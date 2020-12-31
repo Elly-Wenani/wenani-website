@@ -817,6 +817,9 @@ input[type=submit]:hover {
     background-color: #df9a45;
 }
 
+
+/* Social media section */
+
 .socialmedia {
     display: flex;
     align-items: center;
@@ -854,6 +857,31 @@ input[type=submit]:hover {
     padding: 0 10px 0 10px;
     font-size: 14px;
     color: #062438;
+}
+
+@media screen and (max-width: 670px) {
+    .social-left {
+        padding: 0 0 0 2%;
+    }
+    .social-right {
+        padding: 0 2% 0 0;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .socialmedia {
+        flex-direction: column;
+    }
+    .social-left {
+        padding: 0 2% 40px 2%;
+        width: 100%;
+        text-align: center;
+    }
+    .social-right {
+        padding: 0 0 0 0;
+        justify-content: center;
+        width: 100%;
+    }
 }
 
 
