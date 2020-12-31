@@ -7,7 +7,7 @@
 }
 
 
-/* News signup section */
+/* Search section */
 
 .main-signup {
     background-color: #143D59;
@@ -77,7 +77,7 @@ input[type=submit]:hover {
 .socialmedia {
     display: flex;
     align-items: center;
-    margin: 0 0 50px 0;
+    margin: 70px 0 50px 0;
 }
 
 .social-left {
@@ -136,4 +136,18 @@ input[type=submit]:hover {
         justify-content: center;
         width: 100%;
     }
+}
+
+.line {
+    display: flex;
+    justify-content: center;
+    margin: 40px 0 80px 0;
+}
+
+.line hr {
+    display: flex;
+    width: 20%;
+    height: 3px;
+    background-color: #f4a950;
+    border-style: none;
 }

@@ -112,6 +112,7 @@
         </div>
     </section>
 
+    <!-- Clients section -->
     <section>
         <div class="client-section">
             <div class="sec">
@@ -135,6 +136,7 @@
         </div>
     </section>
 
+    <!-- Who we are section -->
     <section>
         <div class="who-main">
             <div class="who-header">
@@ -258,6 +260,8 @@
             </div>
         </div>
     </section>
+
+    <!-- Contact us section -->
     <section>
         <div class="contact-section">
 
