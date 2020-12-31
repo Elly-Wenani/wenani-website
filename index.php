@@ -302,20 +302,8 @@
         </div>
     </section>
 
-    <!-- News signup section -->
+    <!-- News signup socialmedia section -->
     <section>
-        <div class="main-signup">
-            <div class="sign-head">
-                <h2>Stay up to date with the news</h2>
-            </div>
-            <div class="sign-inputtext">
-                <form action="/signup.php">
-                    <input type="email" name="signupemail" id="signupemail" placeholder="Enter your email" required>
-                    <input type="submit" value="Sign Up">
-                </form>
-            </div>
-        </div>
-
         <!-- Social media section -->
         <div class="socialmedia">
             <div class="social-left">
@@ -333,6 +321,19 @@
                 <div class="instagram">
                     <p>Instagram</p>
                 </div>
+            </div>
+        </div>
+
+        <!-- Social media secton -->
+        <div class="main-signup">
+            <div class="sign-head">
+                <h2>Stay up to date with the news</h2>
+            </div>
+            <div class="sign-inputtext">
+                <form action="/signup.php">
+                    <input type="email" name="signupemail" id="signupemail" placeholder="Enter your email" required>
+                    <input type="submit" value="Sign Up">
+                </form>
             </div>
         </div>
     </section>

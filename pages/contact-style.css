@@ -8,12 +8,13 @@
 
 .contact-main-section {
     background-image: url(/webprac/account/images/loginback1.jpg);
-    background-size: cover;
-    background-position: top;
+    background-size: 100% 100% cover;
+    background-position: top center;
     background-repeat: no-repeat;
     width: 100%;
     height: 100%;
     font-size: 20px;
+    padding: 0 0 50px 0;
 }
 
 .contact-sub-section {
@@ -151,5 +152,68 @@ input[type=submit]:hover {
     }
     input[type=submit] {
         width: 93.8%;
+    }
+}
+
+
+/* News signup section */
+
+.main-signup {
+    background-color: #143D59;
+    text-align: center;
+}
+
+.main-signup h2 {
+    padding: 80px 0 25px 0;
+    font-size: 25px;
+    color: #fff;
+}
+
+.sign-inputtext {
+    padding: 0 0 20px 0;
+}
+
+.sign-inputtext input[type=email] {
+    padding: 11px 0 11px 0;
+    width: 300px;
+    border-radius: 4px;
+    border-style: none;
+    padding-left: 20px;
+    font-size: 18px;
+}
+
+input[type=email]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+.sign-inputtext input[type=submit] {
+    padding: 11px 30px 11px 30px;
+    border-style: none;
+    font-size: 18px;
+    border-radius: 0 4px 4px 0;
+    margin: 0 0 0 -15px;
+    background-color: #f4a950;
+    color: #062438;
+    font-weight: 500;
+    outline: none;
+}
+
+input[type=submit]:hover {
+    background-color: #df9a45;
+}
+
+@media screen and (max-width: 700px) {
+    .sign-inputtext {
+        padding: 0 4% 80px 4%;
+    }
+    .sign-inputtext input[type=email] {
+        width: 100%;
+        margin: 0 0 40px 0;
+    }
+    .sign-inputtext input[type=submit] {
+        border-radius: 4px;
+        width: 100%;
+        margin: 0 0 0 0;
     }
 }
