@@ -497,7 +497,7 @@ h4,
 }
 
 .who-blocks .left-block {
-    margin-left: 15%;
+    margin-left: 10%;
     margin-right: 8px;
     background-color: #143D59;
     padding: 40px;
@@ -516,7 +516,7 @@ h4,
 }
 
 .who-blocks .right-block {
-    margin-right: 15%;
+    margin-right: 10%;
     margin-left: 8px;
     background-color: #f4a950;
     padding: 40px;
@@ -574,6 +574,9 @@ h4,
     font-size: 40px;
     color: #062438;
 }
+
+
+/* Message section */
 
 .main-message {
     margin: 80px 0 0 0;
@@ -684,7 +687,7 @@ h4,
 }
 
 .all-circles {
-    margin: 0 15% 0 15%;
+    margin: 0 10% 0 10%;
 }
 
 .top-circle {
@@ -699,6 +702,10 @@ h4,
     text-align: center;
     border-radius: 50%;
     font-size: 25px;
+}
+
+.top-circle:hover {
+    box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2);
 }
 
 .top-circle h2 {
@@ -737,142 +744,13 @@ h4,
 }
 
 
-/* Pricing Blocks section */
-
-.main-blocks {
-    background-color: #fff;
-    color: #000;
-}
-
-.main-blocks .blocks .this-block:hover {
-    box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2);
-}
-
-.main-blocks .blocks .this-block .head {
-    padding: 50px 0 40px 0;
-    background-color: #eee;
-    border-top-right-radius: 4px;
-    border-top-left-radius: 4px;
-}
-
-.main-blocks .blocks .this-block .price {
-    padding-top: 40px;
-    padding-bottom: 20px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.main-blocks .blocks .this-block .price .currency h3 {
-    font-size: 16px;
-}
-
-.main-blocks .blocks .this-block .price .cost h3 {
-    font-size: 55px;
-}
-
-.main-blocks .blocks .this-block .price .cost h3 a {
-    font-size: 16px;
-    text-decoration: none;
-    color: #000;
-}
-
-.main-blocks .blocks .this-block .head h2 {
-    color: #062438;
-    font-size: 35px;
-}
-
-.main-blocks .blocks .this-block .head p {
-    color: #143D59;
-    font-size: 18px;
-    border-style: none;
-    padding-bottom: 0px;
-}
-
-.main-blocks .blocks {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    text-align: center;
-    margin-left: 10%;
-    margin-right: 10%;
-}
-
-.main-blocks .blocks .this-block {
-    margin: 10px;
-    background-color: rgb(248, 246, 246);
-    width: 30%;
-    padding-bottom: 50px;
-    border-color: #0000003a;
-    border-radius: 4px;
-    border-style: solid;
-    border-width: 1px;
-}
-
-.main-blocks .blocks .this-block p {
-    padding-top: 18px;
-    padding-bottom: 18px;
-    border-bottom-style: solid;
-    border-width: 2px;
-    border-color: #ddd;
-    margin-left: 10%;
-    margin-right: 10%;
-    font-size: 18px;
-}
-
-.btnorder {
-    padding: 40px;
-}
-
-.btnorder button {
-    font-size: 22px;
-    font-weight: 900;
-    padding: 10px 20px;
-    color: #143D59;
-    border-radius: 4px;
-    border-color: #f4a950;
-    background-color: #00000000;
-}
-
-.btnorder button:hover {
-    border-color: #00000000;
-    background-color: #143D59;
-    color: #ddd;
-}
-
-@media screen and (max-width: 800px) {
-    .main-blocks .blocks {
-        margin-left: 3%;
-        margin-right: 3%;
-    }
-    .main-blocks .blocks .this-block {
-        display: block;
-        flex-wrap: wrap;
-        justify-content: center;
-        width: 100%;
-        margin: 30px 0 0 0;
-    }
-    .main-blocks .blocks .this-block .head {
-        background-color: #eee;
-        border-top-right-radius: 4px;
-        border-top-left-radius: 4px;
-        width: 100%;
-    }
-    .main-blocks .blocks .this-block p {
-        font-size: 17px;
-        margin-left: 4%;
-        margin-right: 4%;
-    }
-}
-
-
 /* Contact us section */
 
 .contact-section {
     display: flex;
     margin: 60px 0 70px 0;
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 10%;
+    margin-right: 10%;
     text-align: center;
     justify-content: center;
     align-items: center;
@@ -998,11 +876,10 @@ input[type=submit]:hover {
 .socialmedia {
     display: flex;
     align-items: center;
-    margin: 0 0 50px 0;
+    margin: 0 10% 50px 10%;
 }
 
 .social-left {
-    padding: 0 0 0 8%;
     width: 50%;
 }
 
@@ -1025,7 +902,6 @@ input[type=submit]:hover {
     display: flex;
     justify-content: flex-end;
     width: 50%;
-    padding: 0 8% 0 0;
 }
 
 .social-right p {
