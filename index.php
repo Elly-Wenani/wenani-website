@@ -203,6 +203,33 @@
     </section>
 
 
+    <!-- Services circles -->
+    <div class="all-circles">
+        <div class="main-circles-one">
+            <div class="top-circle">
+                <h2>Web Design</h2>
+            </div>
+            <div class="top-circle">
+                <h2>Lorem Ipsum</h2>
+            </div>
+            <div class="top-circle">
+                <h2>Lorem Ipsum</h2>
+            </div>
+        </div>
+        <div class="main-circles-two">
+            <div class="top-circle">
+                <h2>Web Design</h2>
+            </div>
+            <div class="top-circle">
+                <h2>Lorem Ipsum</h2>
+            </div>
+            <div class="top-circle">
+                <h2>Lorem Ipsum</h2>
+            </div>
+        </div>
+    </div>
+
+
     <!-- Pricing blocks section -->
     <section>
         <div class="main-blocks">
